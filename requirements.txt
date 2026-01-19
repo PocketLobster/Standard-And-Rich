@@ -1,0 +1,7 @@
+alpaca-py
+pandas
+numpy
+joblib
+scikit-learn
+nest-asyncio
+python-dotenv

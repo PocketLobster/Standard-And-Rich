@@ -1,0 +1,14 @@
+# --- Security ---
+.env
+
+# --- Python Junk ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
