@@ -9,7 +9,7 @@ Identify high-conviction alpha in semiconductor tickers (AMD, NVDA, TSM, etc.) b
 - `standard_and_rich_500.ipynb` — Full research pipeline: Alpaca data ingestion, 15-min aggregation, feature engineering (rolling percentiles, Z-scores, RSI divergence, earnings interactions), model training, and daily feature table generation (`ggp_rel_tables/` + `daily_feature_pres/`).
 - `real_time_inference_for_SANDR_LIVE.ipynb` — Production live engine: loads trained models + static baseline CSV, runs async Alpaca WebSocket stream, real-time feature updates, and a complete trading bot (entry/exit logic, stop-loss/take-profit, penalty box, rebalancing).
 - `models/` — Trained gradient-boosted model pickles.
-- `ggp_rel_tables/` & `daily_feature_pres/` — Generated relative-price tables and daily feature presentations.
+- `ggp_rel_tables/` & `daily_feature_pres/` — Generated relative-price tables and daily "feature presentations".
 - `trading_config.json` — Auto-generated watchlist and model paths.
 - `requirements.txt` — All dependencies (Alpaca, pandas, joblib, yfinance, etc.).
 
@@ -26,6 +26,4 @@ Identify high-conviction alpha in semiconductor tickers (AMD, NVDA, TSM, etc.) b
 ---
 
 **About the project**  
-This repo demonstrates the exact type of predictive modeling and production deployment I’ve used in my AT&T role and Kenco capstone — time-series feature engineering, percentile forecasting, and real-time inference with risk controls. The same techniques translate directly to donor lifetime value modeling and prospect scoring in athletics fundraising (high-confidence future-value ranges from historical patterns).
-
-Happy to walk through any part of it live (research pipeline, feature recipes, or the live trading loop)!
+This repo demonstrates time-series feature engineering, percentile forecasting, and real-time inference with risk controls.
