@@ -22,8 +22,3 @@ Identify high-conviction alpha in semiconductor tickers (AMD, NVDA, TSM, etc.) b
 **Note**: The live trading loop is fully functional in the notebook (paper trading by default). It includes position tracking, risk limits, and automatic hedging.
 
 **Work in progress** — Updated March 2026. Code, data files, and README refreshed for clarity. Repo now matches the current implementation (research + live execution).
-
----
-
-**About the project**  
-This repo demonstrates time-series feature engineering, percentile forecasting, and real-time inference with risk controls.
